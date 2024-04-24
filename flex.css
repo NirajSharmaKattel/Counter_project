@@ -1,0 +1,24 @@
+* {
+    padding: 10px;
+    margin: 50px;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+body {
+    background-color: #7e3131;
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for the layout */
+    justify-content: center; /* Align items along the main axis (horizontal centering) */
+    align-items: center; /* Align items along the cross axis (vertical centering) */
+    height: 100vh; /* Set the height of the body to the full viewport height */
+}
+
+.section {
+    color: #2bac40;
+    text-align: center; /* Center text within the section */
+}
+h1 {
+    color: #591d8a;
+    text-align: center; 
+    font-size: 400;
+}
